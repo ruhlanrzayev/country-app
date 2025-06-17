@@ -6,22 +6,22 @@
 
 ## 🌎 Countries App
 
-A React-based web application that displays a list of countries with region-based filtering.
+A React-based web application that displays a list of countries with region-based filtering. <br>
 It supports light/dark theme switching and responsive design for mobile and desktop.
 
 ## ✨ Features
 
-🌐 Browse countries by region (e.g., Europe, Asia, Africa, etc.)
-🔎 URL-based region filtering using React Router
-🌙 Light/Dark mode toggle with localStorage theme persistence
-📱 Mobile-friendly sidebar navigation
-⚡ Fast and fully client-side rendered
-🚀 Live Demo
-👉 View the app
+🌐 Browse countries by region (e.g., Europe, Asia, Africa, etc.)<br>
+🔎 URL-based region filtering using React Router<br>
+🌙 Light/Dark mode toggle with localStorage theme persistence<br>
+📱 Mobile-friendly sidebar navigation<br>
+⚡ Fast and fully client-side rendered<br>
+🚀 Live Demo<br>
+👉 View the app<br>
 
 ## 🛠️ Tech Stack
-React
-React Router
-Tailwind CSS
-React Icons
-Vite (or CRA, depending on your setup)
+React<br>
+React Router<br>
+Tailwind CSS<br>
+React Icons<br>
+Vite (or CRA, depending on your setup)<br>
