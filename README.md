@@ -1,7 +1,4 @@
 # Country App with React & Tailwind CSS
-
-## 🚀 Live Demo
-
 👉 [View the web](https://ruhlanscountryapp.vercel.app/countries)
 
 ## 🌎 Countries App
