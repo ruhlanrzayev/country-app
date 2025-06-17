@@ -25,6 +25,6 @@ Vite (or CRA, depending on your setup)<br>
 
 ## Some pictures from website :
 
-![homepage](image-1.png) <br>
-![allcards](image-2.png) <br>
-![carddetails](image-3.png)
+![homepage](pictures/image-1.png) <br>
+![allcards](pictures/image-2.png) <br>
+![carddetails](pictures/image-3.png)
