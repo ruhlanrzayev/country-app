@@ -14,7 +14,7 @@ function Sidebar({ status, setStatus, setRegion, regDataArr }) {
     }, [setStatus]);
 
     return (
-        <div className={`h-screen w-[60%] bg-gray-200 dark:bg-gray-500 p-4 fixed top-0 ${status ? 'right-0' : 'right-[-1500px]'} transition-all duration-200`}>
+        <div className={`z-[1000] h-screen w-[60%] bg-gray-200 dark:bg-gray-500 p-4 fixed top-0 ${status ? 'right-0' : 'right-[-1500px]'} transition-all duration-200`}>
             <MdOutlineClose size={40} onClick={() => setStatus(false)} className="cursor-pointer dark:text-gray-800" />
             <ul className="p-4">
                 {regDataArr.slice(0).map(item => (

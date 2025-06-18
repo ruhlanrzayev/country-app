@@ -4,3 +4,7 @@
 * {
     user-select: none;
 }
+
+.active {
+    color: #7F22FE;
+}

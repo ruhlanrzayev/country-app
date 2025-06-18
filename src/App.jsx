@@ -6,6 +6,7 @@ import { Routes, Route, Navigate } from 'react-router-dom'
 import Details from './pages/Details'
 import Error from './pages/Error'
 import CapitalDetails from './pages/CapitalDetails'
+import ThemeChanger from './components/ThemeChanger/ThemeChanger'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
   return (
     <>
     <Header setRegion={setRegion} cntData={cntData} />
+    <ThemeChanger />
     <Routes>
       <Route path='/' element={ <Navigate to={'/countries'} />} />
       <Route path='/countries' element={<Main region={region} cntData={cntData} />} /> 
