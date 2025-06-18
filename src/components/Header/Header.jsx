@@ -1,14 +1,13 @@
 import Sidebar from "./Sidebar";
 import { useState, useEffect } from "react";
 import { GiWorld } from "react-icons/gi";
-import { NavLink, useLocation, useNavigate } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 function Header({ cntData, setRegion }) {
     const regDataArr = [...new Set(cntData.map(item => item.region))];
     const [status, setStatus] = useState(false);
 
     const location = useLocation();
-    const navigate = useNavigate();
 
     useEffect(() => {
         const path = decodeURIComponent(location.pathname.split("/")[2] || "");
